@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.box {
+    height: 95vh;
+    width: 90%;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid wheat; */
+}
+
+.logo img {
+    height: 70px;
+    padding-top: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar i {
+    font-size: 30px;
+}
+
+.main-container {
+    height: 52vh;
+    display: flex;
+    /* margin-top: 20px; */
+    /* border: 2px solid yellow; */
+}
+
+.heading {
+    /* border: 2px solid black; */
+    height: 310px;
+    width: 50%;
+    padding: 20px 60px;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading p {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.save-btn {
+    /* position: relative; */
+    display: flex;
+
+}
+
+.save-btn i {
+    padding-top: 17px;
+    font-size: 25px;
+}
+
+.save-btn button {
+    margin-top: 25px;
+    height: 30px;
+    width: 140px;
+    border-radius: 15px;
+    margin-left: 5px;
+
+}
+
+
+
+.book-btn button {
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+.image {
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    padding-left: 100px;
+    padding-bottom: 30px;
+    height: 400px;
+}
+
+.contant {
+    height: 180px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.box-1 {
+    height: 170px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+}
+
+.box-1-img img {
+    height: 150px;
+}
+
+.box-1-text h4 {
+    border-radius: 20px;
+    width: 170px;
+    border: 2px solid yellow;
+    /* margin: auto; */
+    padding-left: 10px;
+}
+
+.box-1-text p {
+    padding-top: 20px;
+    font-size: 13px;
+
+}
+
+.box-1-text h5 {
+    padding-top: 15px;
+}
+
+.box-2 {
+    height: 170px;
+    width: 20%;
+    margin-left: 50px;
+    background-image: url(./image/0000.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-2-text {
+    padding-top: 80px;
+    padding-left: 60px;
+
+}
+
+.box-2-text p {
+    font-weight: bold;
+    font-size: 10px;
+}
